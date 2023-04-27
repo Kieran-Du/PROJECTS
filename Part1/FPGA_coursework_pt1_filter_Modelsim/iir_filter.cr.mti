@@ -1,0 +1,22 @@
+{C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt1_filter/FIRFilter.sv} {1 {vlog -work work -vopt -sv {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt1_filter/FIRFilter.sv}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module FIRFilter
+
+Top level modules:
+	FIRFilter
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt1_filter/dataROM.sv} {1 {vlog -work work -vopt -sv {C:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt1_filter\dataROM.sv}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module dataROM
+
+Top level modules:
+	dataROM
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt1_filter/Testbench.sv} {1 {vlog -work work -vopt -sv {C:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt1_filter\Testbench.sv}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module Testbench
+
+Top level modules:
+	Testbench
+
+} {} {}}

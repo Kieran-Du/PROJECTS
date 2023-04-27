@@ -1,0 +1,106 @@
+{C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/top.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/top.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/data_send.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/data_send.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module data_send
+
+Top level modules:
+	data_send
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/DDS.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/DDS.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module DDS
+
+Top level modules:
+	DDS
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/clk_div.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/clk_div.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module clk_div
+
+Top level modules:
+	clk_div
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/spi2dac.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/spi2dac.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module spi2dac
+
+Top level modules:
+	spi2dac
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/uart_tx.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/uart_tx.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/tb_top.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/tb_top.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/DigSqareGen.v} {1 {vlog -work work -vopt {C:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt2_full\DigSqareGen.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module DigSqareGen
+
+Top level modules:
+	DigSqareGen
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module bin2bcd
+
+Top level modules:
+	bin2bcd
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/btn.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/btn.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module btn
+
+Top level modules:
+	btn
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_cell.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_cell.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module divider_cell
+
+Top level modules:
+	divider_cell
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/cdc_handshake.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/cdc_handshake.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module cdc_handshake
+
+Top level modules:
+	cdc_handshake
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/sw.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/sw.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module sw
+
+Top level modules:
+	sw
+
+} {} {}} {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_man.v} {1 {vlog -work work -vopt {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_man.v}
+Model Technology ModelSim SE-64 vlog 10.1b Compiler 2012.04 Apr 26 2012
+-- Compiling module divider_man
+
+Top level modules:
+	divider_man
+
+} {} {}}

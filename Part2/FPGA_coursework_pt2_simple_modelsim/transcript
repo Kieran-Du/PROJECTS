@@ -1,0 +1,108 @@
+# Compile of DigSineGenerator.v was successful with warnings.
+# Compile of spi2dac.v was successful.
+# Compile of tb_topall.v was successful.
+# Compile of top_sig.v was successful.
+# Compile of clk_div.v was successful.
+# 5 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.tb_topall
+# vsim -gui -novopt work.tb_topall 
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/work.tb_topall
+# Loading work.tb_topall
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/work.top_sig
+# Loading work.top_sig
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/work.clk_div
+# Loading work.clk_div
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/work.DigSineGenerator
+# Loading work.DigSineGenerator
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/work.spi2dac
+# Loading work.spi2dac
+# ** Warning: (vsim-3017) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/top_sig.v(37): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /tb_topall/u_top_sig/u_DigSineGenerator
+# ** Warning: (vsim-3722) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/top_sig.v(37): [TFMPC] - Missing connection for port 'y2_init'.
+# 
+# ** Warning: (vsim-3722) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/top_sig.v(37): [TFMPC] - Missing connection for port 'valid'.
+# 
+# ** Warning: (vsim-8607) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/DigSineGenerator.v(36): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+add wave -position insertpoint  \
+sim:/tb_topall/u_top_sig/clk \
+sim:/tb_topall/u_top_sig/reset \
+sim:/tb_topall/u_top_sig/dac_sdi \
+sim:/tb_topall/u_top_sig/dac_cs \
+sim:/tb_topall/u_top_sig/dac_sck \
+sim:/tb_topall/u_top_sig/dac_ld \
+sim:/tb_topall/u_top_sig/clk_10k \
+sim:/tb_topall/u_top_sig/clk_50M \
+sim:/tb_topall/u_top_sig/data \
+sim:/tb_topall/u_top_sig/handshake \
+sim:/tb_topall/u_top_sig/load \
+sim:/tb_topall/u_top_sig/handshake_r
+run 10ms
+quit -sim
+# Compile of DigSineGenerator.v was successful with warnings.
+vsim -gui -novopt work.tb_topall
+# vsim -gui -novopt work.tb_topall 
+# Loading work.tb_topall
+# Loading work.top_sig
+# Loading work.clk_div
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/work.DigSineGenerator
+# Loading work.DigSineGenerator
+# Loading work.spi2dac
+# ** Warning: (vsim-3017) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/top_sig.v(37): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /tb_topall/u_top_sig/u_DigSineGenerator
+# ** Warning: (vsim-3722) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/top_sig.v(37): [TFMPC] - Missing connection for port 'y2_init'.
+# 
+# ** Warning: (vsim-3722) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/top_sig.v(37): [TFMPC] - Missing connection for port 'valid'.
+# 
+# ** Warning: (vsim-8607) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/DigSineGenerator.v(36): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+add wave -position insertpoint  \
+sim:/tb_topall/u_top_sig/clk \
+sim:/tb_topall/u_top_sig/reset \
+sim:/tb_topall/u_top_sig/dac_sdi \
+sim:/tb_topall/u_top_sig/dac_cs \
+sim:/tb_topall/u_top_sig/dac_sck \
+sim:/tb_topall/u_top_sig/dac_ld \
+sim:/tb_topall/u_top_sig/clk_10k \
+sim:/tb_topall/u_top_sig/clk_50M \
+sim:/tb_topall/u_top_sig/data \
+sim:/tb_topall/u_top_sig/handshake \
+sim:/tb_topall/u_top_sig/load \
+sim:/tb_topall/u_top_sig/handshake_r
+run 10ms
+quit -sim
+# Load canceled
+# Compile of DigSineGenerator.v was successful with warnings.
+vsim -gui -novopt work.tb_topall
+# vsim -gui -novopt work.tb_topall 
+# Loading work.tb_topall
+# Loading work.top_sig
+# Loading work.clk_div
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/work.DigSineGenerator
+# Loading work.DigSineGenerator
+# Loading work.spi2dac
+# ** Warning: (vsim-3017) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/top_sig.v(37): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /tb_topall/u_top_sig/u_DigSineGenerator
+# ** Warning: (vsim-3722) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/top_sig.v(37): [TFMPC] - Missing connection for port 'y2_init'.
+# 
+# ** Warning: (vsim-3722) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/top_sig.v(37): [TFMPC] - Missing connection for port 'valid'.
+# 
+# ** Warning: (vsim-8607) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_simple/DigSineGenerator.v(36): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+add wave -position insertpoint  \
+sim:/tb_topall/u_top_sig/clk \
+sim:/tb_topall/u_top_sig/reset \
+sim:/tb_topall/u_top_sig/dac_sdi \
+sim:/tb_topall/u_top_sig/dac_cs \
+sim:/tb_topall/u_top_sig/dac_sck \
+sim:/tb_topall/u_top_sig/dac_ld \
+sim:/tb_topall/u_top_sig/clk_10k \
+sim:/tb_topall/u_top_sig/clk_50M \
+sim:/tb_topall/u_top_sig/data \
+sim:/tb_topall/u_top_sig/handshake \
+sim:/tb_topall/u_top_sig/load \
+sim:/tb_topall/u_top_sig/handshake_r
+run 10ms

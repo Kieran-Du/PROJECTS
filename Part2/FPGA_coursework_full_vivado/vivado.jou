@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Apr 25 16:47:32 2023
+# Process ID: 2928
+# Current directory: C:/Users/10957/Dropbox/PC/Documents/my university files/University of Bristol/DSP_FPGA/FPGA coursework/FPGA_PROJECT/FPGA_coursework
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1920 C:\Users\10957\Dropbox\PC\Documents\my university files\University of Bristol\DSP_FPGA\FPGA coursework\FPGA_PROJECT\FPGA_coursework\FPGA_coursework.xpr
+# Log file: C:/Users/10957/Dropbox/PC/Documents/my university files/University of Bristol/DSP_FPGA/FPGA coursework/FPGA_PROJECT/FPGA_coursework/vivado.log
+# Journal file: C:/Users/10957/Dropbox/PC/Documents/my university files/University of Bristol/DSP_FPGA/FPGA coursework/FPGA_PROJECT/FPGA_coursework\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/10957/Dropbox/PC/Documents/my university files/University of Bristol/DSP_FPGA/FPGA coursework/FPGA_PROJECT/FPGA_coursework/FPGA_coursework.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1

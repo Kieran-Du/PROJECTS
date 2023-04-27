@@ -1,0 +1,264 @@
+# Compile of bin2bcd.v was successful.
+# Compile of btn.v was successful.
+# Compile of cdc_handshake.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_send.v was successful.
+# Compile of DDS.v was successful.
+# Compile of DigSineGenerator.v was successful with warnings.
+# Compile of DigSqareGen.v was successful.
+# Compile of divider_cell.v was successful.
+# Compile of divider_man.v was successful.
+# Compile of spi2dac.v was successful.
+# Compile of sw.v was successful.
+# Compile of tb_top.v was successful.
+# Compile of top.v was successful.
+# Compile of uart_tx.v was successful.
+# 16 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.tb_top
+# vsim -gui -novopt work.tb_top 
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.tb_top
+# Loading work.tb_top
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.top
+# Loading work.top
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.ctrl
+# Loading work.ctrl
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.btn
+# Loading work.btn
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.sw
+# Loading work.sw
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.divider_man
+# Loading work.divider_man
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.divider_cell
+# Loading work.divider_cell
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.bin2bcd
+# Loading work.bin2bcd
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.data_send
+# Loading work.data_send
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.uart_tx
+# Loading work.uart_tx
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.clk_div
+# Loading work.clk_div
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.cdc_handshake
+# Loading work.cdc_handshake
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.DDS
+# Loading work.DDS
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.DigSineGenerator
+# Loading work.DigSineGenerator
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.DigSqareGen
+# Loading work.DigSqareGen
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.spi2dac
+# Loading work.spi2dac
+# ** Warning: (vsim-3017) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(171): [TFMPC] - Too few port connections. Expected 8, found 7.
+# 
+#         Region: /tb_top/u_top/u_ctrl/u_divider_man
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(171): [PCDPC] - Port size (22 or 22) does not match connection size (18) for port 'merchant'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_man.v(14).
+# 
+#         Region: /tb_top/u_top/u_ctrl/u_divider_man
+# ** Warning: (vsim-3722) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(171): [TFMPC] - Missing connection for port 'remainder'.
+# 
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(179): [PCDPC] - Port size (18 or 18) does not match connection size (11) for port 'bin'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v(6).
+# 
+#         Region: /tb_top/u_top/u_ctrl/fre2bcd
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(179): [PCDPC] - Port size (23 or 23) does not match connection size (16) for port 'bcd'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v(8).
+# 
+#         Region: /tb_top/u_top/u_ctrl/fre2bcd
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(186): [PCDPC] - Port size (23 or 23) does not match connection size (12) for port 'bcd'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v(8).
+# 
+#         Region: /tb_top/u_top/u_ctrl/amp2bcd
+# ** Warning: (vsim-8607) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/DigSineGenerator.v(36): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+add wave -position insertpoint  \
+sim:/tb_top/u_top/clk
+add wave -position insertpoint  \
+sim:/tb_top/u_top/reset
+add wave -position insertpoint  \
+sim:/tb_top/u_top/sw0_in \
+sim:/tb_top/u_top/btn0_in \
+sim:/tb_top/u_top/btn1_in \
+sim:/tb_top/u_top/btn2_in \
+sim:/tb_top/u_top/btn3_in
+add wave -position insertpoint  \
+sim:/tb_top/u_top/dac_sdi \
+sim:/tb_top/u_top/dac_cs \
+sim:/tb_top/u_top/dac_sck \
+sim:/tb_top/u_top/dac_ld
+add wave -position insertpoint  \
+sim:/tb_top/u_top/u_spi2dac/load
+add wave -position insertpoint  \
+sim:/tb_top/u_top/u_DDS/data_out
+add wave -position insertpoint  \
+sim:/tb_top/u_top/u_DDS/data_out_sine \
+sim:/tb_top/u_top/u_DDS/data_out_sqare
+
+
+run 100ms
+# Causality operation skipped due to absense of debug database file
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/wave.do}
+quit -sim
+# Compile of DigSqareGen.v was successful.
+# Compile of DigSineGenerator.v was successful with warnings.
+vsim -gui -novopt work.tb_top
+# vsim -gui -novopt work.tb_top 
+# Loading work.tb_top
+# Loading work.top
+# Loading work.ctrl
+# Loading work.btn
+# Loading work.sw
+# Loading work.divider_man
+# Loading work.divider_cell
+# Loading work.bin2bcd
+# Loading work.data_send
+# Loading work.uart_tx
+# Loading work.clk_div
+# Loading work.cdc_handshake
+# Loading work.DDS
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.DigSineGenerator
+# Loading work.DigSineGenerator
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.DigSqareGen
+# Loading work.DigSqareGen
+# Loading work.spi2dac
+# ** Warning: (vsim-3017) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(171): [TFMPC] - Too few port connections. Expected 8, found 7.
+# 
+#         Region: /tb_top/u_top/u_ctrl/u_divider_man
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(171): [PCDPC] - Port size (22 or 22) does not match connection size (18) for port 'merchant'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_man.v(14).
+# 
+#         Region: /tb_top/u_top/u_ctrl/u_divider_man
+# ** Warning: (vsim-3722) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(171): [TFMPC] - Missing connection for port 'remainder'.
+# 
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(179): [PCDPC] - Port size (18 or 18) does not match connection size (11) for port 'bin'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v(6).
+# 
+#         Region: /tb_top/u_top/u_ctrl/fre2bcd
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(179): [PCDPC] - Port size (23 or 23) does not match connection size (16) for port 'bcd'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v(8).
+# 
+#         Region: /tb_top/u_top/u_ctrl/fre2bcd
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(186): [PCDPC] - Port size (23 or 23) does not match connection size (12) for port 'bcd'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v(8).
+# 
+#         Region: /tb_top/u_top/u_ctrl/amp2bcd
+# ** Warning: (vsim-8607) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/DigSineGenerator.v(36): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+do wave.do
+run 10ms
+quit -sim
+# Compile of bin2bcd.v was successful.
+# Compile of btn.v was successful.
+# Compile of cdc_handshake.v was successful.
+# Compile of clk_div.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of data_send.v was successful.
+# Compile of DDS.v was successful.
+# Compile of DigSineGenerator.v was successful with warnings.
+# Compile of DigSqareGen.v was successful.
+# Compile of divider_cell.v was successful.
+# Compile of divider_man.v was successful.
+# Compile of spi2dac.v was successful.
+# Compile of sw.v was successful.
+# Compile of tb_top.v was successful.
+# Compile of top.v was successful.
+# Compile of uart_tx.v was successful.
+# 16 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.tb_top
+# vsim -gui -novopt work.tb_top 
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.tb_top
+# Loading work.tb_top
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.top
+# Loading work.top
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.ctrl
+# Loading work.ctrl
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.btn
+# Loading work.btn
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.sw
+# Loading work.sw
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.divider_man
+# Loading work.divider_man
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.divider_cell
+# Loading work.divider_cell
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.bin2bcd
+# Loading work.bin2bcd
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.data_send
+# Loading work.data_send
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.uart_tx
+# Loading work.uart_tx
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.clk_div
+# Loading work.clk_div
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.cdc_handshake
+# Loading work.cdc_handshake
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.DDS
+# Loading work.DDS
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.DigSineGenerator
+# Loading work.DigSineGenerator
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.DigSqareGen
+# Loading work.DigSqareGen
+# Refreshing C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/work.spi2dac
+# Loading work.spi2dac
+# ** Warning: (vsim-3017) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(171): [TFMPC] - Too few port connections. Expected 8, found 7.
+# 
+#         Region: /tb_top/u_top/u_ctrl/u_divider_man
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(171): [PCDPC] - Port size (22 or 22) does not match connection size (18) for port 'merchant'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_man.v(14).
+# 
+#         Region: /tb_top/u_top/u_ctrl/u_divider_man
+# ** Warning: (vsim-3722) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(171): [TFMPC] - Missing connection for port 'remainder'.
+# 
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(179): [PCDPC] - Port size (18 or 18) does not match connection size (11) for port 'bin'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v(6).
+# 
+#         Region: /tb_top/u_top/u_ctrl/fre2bcd
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(179): [PCDPC] - Port size (23 or 23) does not match connection size (16) for port 'bcd'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v(8).
+# 
+#         Region: /tb_top/u_top/u_ctrl/fre2bcd
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(186): [PCDPC] - Port size (23 or 23) does not match connection size (12) for port 'bcd'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v(8).
+# 
+#         Region: /tb_top/u_top/u_ctrl/amp2bcd
+# ** Warning: (vsim-8607) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/DigSineGenerator.v(36): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+do wave.do
+run 100ms
+add wave -position insertpoint  \
+sim:/tb_top/u_top/u_clk_div/clk_div \
+sim:/tb_top/u_top/u_clk_div/clk_div_valid \
+sim:/tb_top/u_top/u_clk_div/clk_DDS \
+sim:/tb_top/u_top/u_clk_div/clk_50M
+add wave -position insertpoint  \
+sim:/tb_top/u_top/u_data_send/valid \
+sim:/tb_top/u_top/u_data_send/ready \
+sim:/tb_top/u_top/u_data_send/tx
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/wave.do}
+quit -sim
+vsim -gui -novopt work.tb_top
+# vsim -gui -novopt work.tb_top 
+# Loading work.tb_top
+# Loading work.top
+# Loading work.ctrl
+# Loading work.btn
+# Loading work.sw
+# Loading work.divider_man
+# Loading work.divider_cell
+# Loading work.bin2bcd
+# Loading work.data_send
+# Loading work.uart_tx
+# Loading work.clk_div
+# Loading work.cdc_handshake
+# Loading work.DDS
+# Loading work.DigSineGenerator
+# Loading work.DigSqareGen
+# Loading work.spi2dac
+# ** Warning: (vsim-3017) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(171): [TFMPC] - Too few port connections. Expected 8, found 7.
+# 
+#         Region: /tb_top/u_top/u_ctrl/u_divider_man
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(171): [PCDPC] - Port size (22 or 22) does not match connection size (18) for port 'merchant'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_man.v(14).
+# 
+#         Region: /tb_top/u_top/u_ctrl/u_divider_man
+# ** Warning: (vsim-3722) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(171): [TFMPC] - Missing connection for port 'remainder'.
+# 
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(179): [PCDPC] - Port size (18 or 18) does not match connection size (11) for port 'bin'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v(6).
+# 
+#         Region: /tb_top/u_top/u_ctrl/fre2bcd
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(179): [PCDPC] - Port size (23 or 23) does not match connection size (16) for port 'bcd'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v(8).
+# 
+#         Region: /tb_top/u_top/u_ctrl/fre2bcd
+# ** Warning: (vsim-3015) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v(186): [PCDPC] - Port size (23 or 23) does not match connection size (12) for port 'bcd'. The port definition is at: C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v(8).
+# 
+#         Region: /tb_top/u_top/u_ctrl/amp2bcd
+# ** Warning: (vsim-8607) C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/DigSineGenerator.v(36): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+do wave.do
+run 10ms

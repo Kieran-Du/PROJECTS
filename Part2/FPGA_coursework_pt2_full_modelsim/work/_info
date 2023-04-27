@@ -1,0 +1,296 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt2_simple
+vbin2bcd
+V999MKo=miV^lRMSXz=^K[3
+r1
+31
+IG30a`J3G87G:lbC[:5L4a3
+Z0 dC:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt2_full
+w1681892588
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v
+L0 1
+Z1 OL;L;10.1b;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+!s100 NWY]14m<HZXo4^aBRm5V50
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v|
+!s108 1681894109.015000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/bin2bcd.v|
+vbtn
+VLFn7EISzdi;N8T9ZldF2L2
+r1
+31
+I;0abzgV?J23iiJ?9[1QcA3
+Z3 dC:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt2_full
+Z4 w1681892589
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/btn.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/btn.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 b><`amD=WS<2j2YZdT7==1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/btn.v|
+!s108 1681894109.668000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/btn.v|
+vcdc_handshake
+VdPQ4WFj0bAJzb5Jg7nIUU2
+r1
+31
+IG:GTaH7;YG;81cUM[3CT60
+R3
+R4
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/cdc_handshake.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/cdc_handshake.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 ;=m8aiEdam:PVMY;gYc[I0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/cdc_handshake.v|
+!s108 1681894109.795000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/cdc_handshake.v|
+vclk_div
+V4<nN9oli1Ci`8_8BF?UbI3
+r1
+31
+Ik0SL1Q9gd=FM<AW6l6iA23
+R3
+R4
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/clk_div.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/clk_div.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 V?Z^BSYDJkdhV6[fNCSC81
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/clk_div.v|
+!s108 1681894109.992000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/clk_div.v|
+vctrl
+Vn5]BBBTLT:;DTb^6ffHbl1
+r1
+31
+IBH=Omkh`HMeU@o`2z[HVM0
+R3
+R4
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 Oh3c5iGFh1FT21iO5d`>n2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v|
+!s108 1681894110.544000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/ctrl.v|
+vdata_send
+VhD^`?>>gd]HY>1n]30d:C3
+r1
+31
+IZ=ZF;9ZhE]2[Yb0RDHSJd0
+R3
+R4
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/data_send.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/data_send.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 ?8BK`VIj?FZDhBJ_Rge9<2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/data_send.v|
+!s108 1681894110.657000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/data_send.v|
+vDDS
+VQU[:LKHUUe815H33Ai<6?2
+r1
+31
+IA`^=Cj0Cl_4`Ga0amFnoj2
+R3
+R4
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/DDS.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/DDS.v
+L0 1
+R1
+R2
+n@d@d@s
+!i10b 1
+!s85 0
+!s100 o:o`LmoX_EEGAY4fP38E93
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/DDS.v|
+!s108 1681894110.828000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/DDS.v|
+vDigSineGenerator
+VoiUHgGK=?Hic04_SI`CNF1
+r1
+31
+ISzOgaU6][oCoHP`23_j>R1
+R3
+w1681894104
+8C:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt2_full\DigSineGenerator.v
+FC:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt2_full\DigSineGenerator.v
+L0 1
+R1
+R2
+n@dig@sine@generator
+!i10b 1
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|C:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt2_full\DigSineGenerator.v|
+!s100 KkjC=@g3mTMJ<W;nUe<W43
+!s108 1681894110.964000
+!s107 C:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt2_full\DigSineGenerator.v|
+vDigSqareGen
+V9G5XfMWFFG6WDmT7^HTFY3
+r1
+31
+IEMTV6_`EWVSRUmHQA8WB31
+R3
+w1681893851
+8C:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt2_full\DigSqareGen.v
+FC:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt2_full\DigSqareGen.v
+L0 1
+R1
+R2
+n@dig@sqare@gen
+!i10b 1
+!s85 0
+!s100 @4YEM3QUn9PFcJV;amDnB1
+!s90 -reportprogress|300|-work|work|-vopt|C:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt2_full\DigSqareGen.v|
+!s108 1681894111.101000
+!s107 C:\Users\ss22618\OneDrive - University of Bristol\Documents\Yunhai Du\FPGA_coursework_pt2_full\DigSqareGen.v|
+vdivider_cell
+VA_<OE@caH85N41PBgNL@W1
+r1
+31
+IcJ]gCkGJPG<9HAGob`9eA0
+R3
+R4
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_cell.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_cell.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 DZ]lQ`2e[R1HSG=gzFS:m1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_cell.v|
+!s108 1681894111.202000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_cell.v|
+vdivider_man
+V7NQLa02lji@TSSYNG81ge2
+r1
+31
+I98n8LhbiRYS_Zeg7c89kh0
+R3
+R4
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_man.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_man.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 l4ZbRNg3Co=zN8<CEMjk82
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_man.v|
+!s108 1681894111.351000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/divider_man.v|
+vspi2dac
+!i10b 1
+VFNOGDa=aYhJTn=76LYB@A2
+r1
+!s85 0
+31
+I]RogPnR[6lQ4AJ_DR@NzI0
+R3
+R4
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/spi2dac.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/spi2dac.v
+L0 9
+R1
+R2
+!s100 ;9S36CQ3UQ6eT1R;IOT543
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/spi2dac.v|
+!s108 1681894111.467000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/spi2dac.v|
+vsw
+VK=`Ik2?NSHJBJa?Q298963
+r1
+31
+IcUhn5zBoP986K=DFSQKQh0
+R3
+R4
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/sw.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/sw.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 _I`074cel=YRXQMfPX;Af2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/sw.v|
+!s108 1681894111.670000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/sw.v|
+vtb_top
+V[LcaLh[SJXomY3Ki^RaI?1
+r1
+31
+IU`JdWPLbNEjmb:o^7Z8mc0
+R3
+w1679245525
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/tb_top.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/tb_top.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 Mz0foEhV@[>Q``zWUe7Z43
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/tb_top.v|
+!s108 1681894111.774000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/tb_top.v|
+vtop
+VBJmc_7zjK=05cEiKl[KcJ2
+r1
+31
+IMz^>LPQ;b`jAhn<W=ORY10
+R3
+R4
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/top.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/top.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 ;hOU@TR;BMe2OV]<4T`A_3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/top.v|
+!s108 1681894111.882000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/top.v|
+vuart_tx
+Vm=G0T1KifofRj3D1cRcS31
+r1
+31
+I:>iRd=VC?@oJCI@FRUaob0
+R3
+R4
+8C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/uart_tx.v
+FC:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/uart_tx.v
+L0 1
+R1
+R2
+!i10b 1
+!s85 0
+!s100 <o37dB1X6hS_Km1OBUhA[2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/uart_tx.v|
+!s108 1681894112.007000
+!s107 C:/Users/ss22618/OneDrive - University of Bristol/Documents/Yunhai Du/FPGA_coursework_pt2_full/uart_tx.v|

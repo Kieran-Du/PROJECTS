@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Apr 25 16:01:55 2023
+# Process ID: 28560
+# Current directory: C:/Users/10957/Dropbox/PC/Documents/my university files/University of Bristol/DSP_FPGA/FPGA coursework/FPGA_PROJECT/fpga_coursework_simple
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2484 C:\Users\10957\Dropbox\PC\Documents\my university files\University of Bristol\DSP_FPGA\FPGA coursework\FPGA_PROJECT\fpga_coursework_simple\fpga_coursework_simple.xpr
+# Log file: C:/Users/10957/Dropbox/PC/Documents/my university files/University of Bristol/DSP_FPGA/FPGA coursework/FPGA_PROJECT/fpga_coursework_simple/vivado.log
+# Journal file: C:/Users/10957/Dropbox/PC/Documents/my university files/University of Bristol/DSP_FPGA/FPGA coursework/FPGA_PROJECT/fpga_coursework_simple\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/10957/Dropbox/PC/Documents/my university files/University of Bristol/DSP_FPGA/FPGA coursework/FPGA_PROJECT/fpga_coursework_simple/fpga_coursework_simple.xpr}
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/10957/Dropbox/PC/Documents/my university files/University of Bristol/DSP_FPGA/FPGA coursework/FPGA_PROJECT/fpga_coursework_simple/fpga_coursework_simple.runs/impl_1/top_sig.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/10957/Dropbox/PC/Documents/my university files/University of Bristol/DSP_FPGA/FPGA coursework/FPGA_PROJECT/fpga_coursework_simple/fpga_coursework_simple.runs/impl_1/top_sig.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
